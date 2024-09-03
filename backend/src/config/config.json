@@ -1,0 +1,30 @@
+{
+  "development": {
+    "username": "Tony",
+    "password": "T0nyP@ssw0rd!",
+    "database": "HTS_Tony",
+    "host": "citizen.manukautech.info",
+    "port": 6306,
+    "dialect": "mssql",
+    "dialectOptions": {
+      "options": {
+        "encrypt": true,
+        "trustServerCertificate": true
+      }
+    }
+  },
+  "test": {
+    "username": "root",
+    "password": null,
+    "database": "database_test",
+    "host": "127.0.0.1",
+    "dialect": "mysql"
+  },
+  "production": {
+    "username": "root",
+    "password": null,
+    "database": "database_production",
+    "host": "127.0.0.1",
+    "dialect": "mysql"
+  }
+}
