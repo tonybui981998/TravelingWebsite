@@ -1,0 +1,360 @@
+.contact-requirement {
+  font-family: cursive;
+  background-color: rgb(227, 238, 238);
+  height: fit-content;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  .requirement-line {
+    margin-top: 40px;
+    width: 60%;
+    border: 1px solid rgb(216, 210, 210);
+  }
+  .requirement-title {
+    margin-top: 40px;
+  }
+  .requirement-title {
+    font-size: 45px;
+    color: black;
+    font-size: 700;
+  }
+  .requirement-main-form {
+    margin-top: 30px;
+    background-color: #e4e3d8;
+    border: 1px solid black;
+    width: 700px;
+    height: fit-content;
+    margin-bottom: 30px;
+    .requirement-content {
+      margin-top: 20px;
+      label {
+        margin-left: 2%;
+        font-size: 28px;
+        font-weight: 500;
+      }
+      .contact-input {
+        width: 95%;
+
+        input {
+          width: 100%;
+          padding: 8px 0;
+          margin-left: 2%;
+          outline: none;
+          //  color: white;
+          font-size: 20px;
+          border-radius: 10px;
+          background-color: transparent;
+        }
+        textarea {
+          width: 100%;
+          padding: 25px 0;
+          outline: none;
+          margin-left: 2%;
+          border-radius: 10px;
+          background-color: transparent;
+        }
+      }
+    }
+    .contact-button {
+      text-align: center;
+      font-family: cursive;
+
+      margin-top: 15px;
+      margin-bottom: 15px;
+      button {
+        padding: 12px 35px;
+        border-radius: 30px;
+        font-family: cursive;
+        font-size: 20px;
+        &:hover {
+          color: white;
+          background-color: red;
+        }
+      }
+    }
+  }
+}
+.centered-modal {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: fixed;
+  font-family: cursive;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background: rgba(0, 0, 0, 0.5);
+  .modal-dialog {
+    background-color: white;
+    text-align: center;
+    max-width: 500px; // Đặt kích thước mong muốn cho modal
+    height: 400px;
+    width: 100%;
+    border: 1px solid black;
+    .model-title {
+      color: black;
+      font-family: 700;
+      font-size: 32px;
+      font-family: cursive;
+      margin-top: 30px;
+    }
+    .modal-Body {
+      p {
+        margin: 0 10px;
+        font-size: 28px;
+        color: black;
+        font-family: 700;
+      }
+    }
+    .model-button {
+      margin-top: 25px;
+      .primary {
+        font-family: cursive;
+        font-weight: 600;
+        padding: 6px 45px;
+        border-radius: 30px;
+        color: white;
+        font-size: 20px;
+        background-color: black;
+        &:hover {
+          background-color: red;
+          color: white;
+        }
+      }
+    }
+  }
+}
+//760
+@media (max-width: 760px) {
+  .contact-requirement {
+    font-family: cursive;
+    background-color: rgb(227, 238, 238);
+    height: fit-content;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    .requirement-line {
+      margin-top: 40px;
+      width: 60%;
+      border: 1px solid rgb(216, 210, 210);
+    }
+    .requirement-title {
+      margin-top: 40px;
+    }
+    .requirement-title {
+      font-size: 45px;
+      color: black;
+      font-size: 700;
+    }
+    .requirement-main-form {
+      margin-top: 30px;
+      background-color: rgb(228, 224, 217);
+      border: 1px solid black;
+      width: 550px;
+      height: fit-content;
+      margin-bottom: 30px;
+      .requirement-content {
+        margin-top: 20px;
+        label {
+          margin-left: 2%;
+          font-size: 28px;
+          font-weight: 500;
+        }
+        .contact-input {
+          width: 95%;
+
+          input {
+            width: 100%;
+            padding: 8px 0;
+            margin-left: 2%;
+            outline: none;
+            border-radius: 10px;
+            background-color: transparent;
+          }
+          textarea {
+            width: 100%;
+            padding: 25px 0;
+            outline: none;
+            margin-left: 2%;
+            border-radius: 10px;
+            background-color: transparent;
+          }
+        }
+      }
+      .contact-button {
+        text-align: center;
+        font-family: cursive;
+
+        margin-top: 15px;
+        margin-bottom: 15px;
+        button {
+          padding: 12px 35px;
+          border-radius: 30px;
+          font-family: cursive;
+          font-size: 20px;
+          &:hover {
+            color: white;
+            background-color: red;
+          }
+        }
+      }
+    }
+  }
+}
+
+// 600
+@media (max-width: 600px) {
+  .contact-requirement {
+    font-family: cursive;
+    background-color: rgb(227, 238, 238);
+    height: fit-content;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    .requirement-line {
+      margin-top: 40px;
+      width: 60%;
+      border: 1px solid rgb(216, 210, 210);
+    }
+    .requirement-title {
+      margin-top: 40px;
+    }
+    .requirement-title {
+      font-size: 45px;
+      color: black;
+      font-size: 700;
+    }
+    .requirement-main-form {
+      margin-top: 30px;
+      background-color: rgb(228, 224, 217);
+      border: 1px solid black;
+      width: 400px;
+      height: fit-content;
+      margin-bottom: 30px;
+      .requirement-content {
+        margin-top: 20px;
+        label {
+          margin-left: 2%;
+          font-size: 28px;
+          font-weight: 500;
+        }
+        .contact-input {
+          width: 95%;
+
+          input {
+            width: 100%;
+            padding: 8px 0;
+            margin-left: 2%;
+            outline: none;
+            border-radius: 10px;
+            background-color: transparent;
+          }
+          textarea {
+            width: 100%;
+            padding: 25px 0;
+            outline: none;
+            margin-left: 2%;
+            border-radius: 10px;
+            background-color: transparent;
+          }
+        }
+      }
+      .contact-button {
+        text-align: center;
+        font-family: cursive;
+
+        margin-top: 15px;
+        margin-bottom: 15px;
+        button {
+          padding: 12px 35px;
+          border-radius: 30px;
+          font-family: cursive;
+          font-size: 15px;
+          &:hover {
+            color: white;
+            background-color: red;
+          }
+        }
+      }
+    }
+  }
+}
+
+//450
+@media (max-width: 450px) {
+  .contact-requirement {
+    font-family: cursive;
+    background-color: rgb(227, 238, 238);
+    height: fit-content;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    .requirement-line {
+      margin-top: 40px;
+      width: 60%;
+      border: 1px solid rgb(216, 210, 210);
+    }
+    .requirement-title {
+      margin-top: 40px;
+    }
+    .requirement-title {
+      font-size: 45px;
+      color: black;
+      font-size: 700;
+    }
+    .requirement-main-form {
+      margin-top: 30px;
+      background-color: rgb(228, 224, 217);
+      border: 1px solid black;
+      width: 300px;
+      height: fit-content;
+      margin-bottom: 30px;
+      .requirement-content {
+        margin-top: 20px;
+        label {
+          margin-left: 2%;
+          font-size: 28px;
+          font-weight: 500;
+        }
+        .contact-input {
+          width: 95%;
+
+          input {
+            width: 100%;
+            padding: 8px 0;
+            margin-left: 2%;
+            outline: none;
+            border-radius: 10px;
+            background-color: transparent;
+          }
+          textarea {
+            width: 100%;
+            padding: 25px 0;
+            outline: none;
+            margin-left: 2%;
+            border-radius: 10px;
+            background-color: transparent;
+          }
+        }
+      }
+      .contact-button {
+        text-align: center;
+        font-family: cursive;
+
+        margin-top: 15px;
+        margin-bottom: 15px;
+        button {
+          padding: 12px 35px;
+          border-radius: 30px;
+          font-family: cursive;
+          font-size: 15px;
+          &:hover {
+            color: white;
+            background-color: red;
+          }
+        }
+      }
+    }
+  }
+}

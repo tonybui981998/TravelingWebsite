@@ -1,0 +1,23 @@
+.paywidthcard {
+  font-family: cursive;
+  background-color: #e6f2ff;
+  text-align: center;
+  .pay-title {
+    padding-top: 50px;
+    font-size: 40px;
+    font-weight: 700;
+  }
+  .pay-card {
+    padding-top: 10px;
+    font-size: 30px;
+    font-weight: 500;
+
+    span {
+      color: red;
+      margin: 0 20px;
+      font-weight: 500;
+      font-size: 33px;
+      animation: payColor 1s alternate infinite;
+    }
+  }
+}
