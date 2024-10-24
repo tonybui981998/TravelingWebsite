@@ -1,0 +1,233 @@
+.home-header {
+  background: url("../../image/image-header.webp") no-repeat;
+  background-position: bottom;
+  background-size: cover;
+  height: 70vh;
+  font-family: cursive;
+  text-align: center;
+
+  .header-h1 {
+    text-align: center;
+    color: white;
+    font-weight: 900;
+    font-size: 55px;
+    padding-top: 30px;
+  }
+  .header-text {
+    display: flex;
+    justify-content: center;
+
+    p {
+      width: 35%;
+      display: flex;
+      color: white;
+      font-size: 30px;
+      font-weight: 850;
+    }
+  }
+  .header-button {
+    .about-us {
+      border-radius: 30px;
+      padding: 10px 30px;
+      background: wheat;
+      font-weight: 500;
+      font-size: 15px;
+
+      &:hover {
+        background: red;
+        color: white;
+      }
+    }
+    .destination {
+      border-radius: 30px;
+      padding: 10px 30px;
+      background: red;
+      color: white;
+      font-weight: 500;
+      font-size: 15px;
+      margin: 0 15px;
+
+      &:hover {
+        background: yellow;
+        color: red;
+      }
+    }
+  }
+}
+
+// 1433
+@media (max-width: 1433px) {
+  .home-header {
+    background: url("../../image/image-header.webp") no-repeat;
+    background-position: bottom;
+    background-size: cover;
+    height: 70vh;
+    font-family: cursive;
+    text-align: center;
+    .header-h1 {
+      text-align: center;
+      color: white;
+      font-weight: 900;
+      font-size: 55px;
+      padding-top: 50px;
+    }
+    .header-text {
+      display: flex;
+      justify-content: center;
+
+      p {
+        width: 50%;
+        display: flex;
+        color: white;
+        font-size: 30px;
+        font-weight: 850;
+      }
+    }
+    .header-button {
+      .about-us {
+        border-radius: 30px;
+        padding: 10px 30px;
+        background: wheat;
+        font-weight: 500;
+        font-size: 15px;
+
+        &:hover {
+          background: red;
+          color: white;
+        }
+      }
+      .destination {
+        border-radius: 30px;
+        padding: 10px 30px;
+        background: red;
+        color: white;
+        font-weight: 500;
+        font-size: 15px;
+        margin: 0 15px;
+
+        &:hover {
+          background: yellow;
+          color: red;
+        }
+      }
+    }
+  }
+}
+
+// 1170
+@media (max-width: 1170px) {
+  .home-header {
+    background: url("../../image/image-header.webp") no-repeat;
+    background-position: bottom;
+    background-size: cover;
+    height: 70vh;
+    font-family: cursive;
+    text-align: center;
+    .header-h1 {
+      text-align: center;
+      color: white;
+      font-weight: 900;
+      font-size: 55px;
+      padding-top: 50px;
+    }
+    .header-text {
+      display: flex;
+      justify-content: center;
+
+      p {
+        width: 70%;
+        display: flex;
+        color: white;
+        font-size: 26px;
+        font-weight: 850;
+      }
+    }
+    .header-button {
+      .about-us {
+        border-radius: 30px;
+        padding: 10px 30px;
+        background: wheat;
+        font-weight: 500;
+        font-size: 15px;
+
+        &:hover {
+          background: red;
+          color: white;
+        }
+      }
+      .destination {
+        border-radius: 30px;
+        padding: 10px 30px;
+        background: red;
+        color: white;
+        font-weight: 500;
+        font-size: 15px;
+        margin: 0 15px;
+
+        &:hover {
+          background: yellow;
+          color: red;
+        }
+      }
+    }
+  }
+}
+
+// 700
+@media (max-width: 700px) {
+  .home-header {
+    background: url("../../image/image-header.webp") no-repeat;
+    background-position: bottom;
+    background-size: cover;
+    height: 70vh;
+    font-family: cursive;
+    text-align: center;
+    .header-h1 {
+      text-align: center;
+      color: white;
+      font-weight: 900;
+      font-size: 45px;
+      padding-top: 50px;
+    }
+    .header-text {
+      display: flex;
+      justify-content: center;
+
+      p {
+        width: 90%;
+        display: flex;
+        color: white;
+        font-size: 22px;
+        font-weight: 850;
+      }
+    }
+    .header-button {
+      .about-us {
+        border-radius: 30px;
+        padding: 10px 30px;
+        background: wheat;
+        font-weight: 500;
+        font-size: 15px;
+
+        &:hover {
+          background: red;
+          color: white;
+        }
+      }
+      .destination {
+        border-radius: 30px;
+        padding: 10px 30px;
+        background: red;
+        color: white;
+        font-weight: 500;
+        font-size: 15px;
+        margin: 0 15px;
+
+        &:hover {
+          background: yellow;
+          color: red;
+        }
+      }
+    }
+  }
+}

@@ -1,0 +1,22 @@
+import halong from "../image/dalang.png";
+import destinationsapa from "../image/destination-sapa.webp";
+import destinationhoian from "../image/destination-hoian.webp";
+import destinationdanang from "../image/destination-danang.webp";
+import destinationhue from "../image/destination-hue.webp";
+import destinationmuine from "../image/destination-muine.webp";
+import destinationcatba from "../image/destination-catba.webp";
+import destinationcondao from "../image/destination-condao.webp";
+import destinationninhbinh from "../image/destination-ninhbinh.webp";
+import destinationphucuoc from "../image/destination-phucuoc.webp";
+import destinationtamcoc from "../image/destination-tamcoc.webp";
+import destinationsadec from "../image/destination-sadec.webp";
+import destinationquynhon from "../image/destination-quynhon.webp";
+import destinationhagiang from "../image/destination-hagiang.webp";
+import destinationculao from "../image/destination-culao.webp";
+import destinationbabelake from "../image/destination-babelake.webp";
+import destinationdienbenphu from "../image/destination-dienbenphu.webp";
+import destinationdalat from "../image/destination-dalat.webp";
+import destinationphanthiet from "../image/destination-phanthiet.webp";
+import destinationvungtau from "../image/destination-vungtau.webp";
+
+export const allImage = [];

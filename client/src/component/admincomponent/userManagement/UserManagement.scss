@@ -1,0 +1,112 @@
+.usermanagement {
+  margin: 0 30px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  .usermanagemtn-title {
+    text-align: center;
+    padding-top: 40px;
+    font-size: 30px;
+    font-weight: 700;
+    margin-bottom: 30px;
+  }
+  table {
+    border: 1px solid black;
+    text-align: center;
+    width: 70%;
+    text-align: center;
+    margin: auto;
+
+    th {
+      border: 1px solid black;
+      padding: 7px;
+      font-size: 18px;
+      .edit-button {
+        font-size: 23px;
+        padding: 3px 26px;
+        background: yellow;
+        cursor: pointer;
+      }
+      .delete-button {
+        padding: 3px 26px;
+        font-size: 23px;
+        margin: 0 3px;
+        background-color: red;
+        cursor: pointer;
+        color: white;
+      }
+    }
+    td {
+      color: red;
+      font-size: 25px;
+      font-weight: 700;
+      border: 1px solid black;
+      padding: 6px;
+      font-size: 18px;
+    }
+  }
+  .centeredmodal {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: fixed;
+    font-family: cursive;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background: rgba(0, 0, 0, 0.5);
+    .modal-dialog {
+      background-color: white;
+      max-width: 500px;
+      height: 450px;
+      border: 1px solid black;
+      width: 100%;
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      align-items: center;
+      .model-title {
+        font-size: 35px;
+        font-weight: 600;
+        padding-top: 5px;
+      }
+      .modal-Body {
+        .edit-model {
+          label {
+            font-size: 30px;
+            font-weight: 600;
+          }
+          input {
+            margin-bottom: 10px;
+            width: 280px;
+            height: 35px;
+            font-size: 15px;
+            font-weight: 600;
+          }
+          select {
+            width: 150px;
+            font-size: 15px;
+            margin-bottom: 20px;
+          }
+        }
+      }
+      .model-button {
+        .primary {
+          padding: 10px 30px;
+          border-radius: 30px;
+          font-size: 15px;
+          background-color: red;
+          color: white;
+        }
+        .primarys {
+          padding: 10px 30px;
+          border-radius: 30px;
+          font-size: 15px;
+          background-color: yellow;
+          color: red;
+        }
+      }
+    }
+  }
+}
