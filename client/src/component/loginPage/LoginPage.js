@@ -1,13 +1,13 @@
 import React, { useState } from "react";
 import "./LoginPage.scss";
-import { Link } from "react-router-dom";
+import { Link, useNavigate } from "react-router-dom";
 import { toast } from "react-toastify";
 import { getLoginUser } from "../service/Service";
 
 const LoginPage = () => {
   const [inputEmail, setInputEmail] = useState();
   const [inputPasswort, setInputPassword] = useState();
-
+  const navigate = useNavigate;
   // creat default value
   const defaultValue = {
     isEmail: true,
@@ -44,22 +44,20 @@ const LoginPage = () => {
       };
       let loginUser = await getLoginUser(userInformation);
       console.log(loginUser);
-      if (loginUser) {
-        console.log(loginUser);
-
+      if (loginUser.data.DC === 0) {
         let data = {
           name: loginUser.data.DT.DT.name,
           email: loginUser.data.DT.DT.email,
           role: loginUser.data.DT.DT.role,
         };
-        console.log(data);
-        toast.success("Login success");
         sessionStorage.setItem("user", JSON.stringify(data));
-        if (loginUser.data.DT.DT.role === "Customer") {
-          window.location.replace("/");
-        } else {
+        if (loginUser.data.DT.DT.role === "Admin") {
           window.location.replace("/adminPage");
+        } else {
+          window.location.replace("/");
         }
+      } else {
+        toast.error(loginUser.data.DM);
       }
     }
   };

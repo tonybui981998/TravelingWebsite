@@ -1,4 +1,4 @@
-import React, { useState } from "react";
+import React, { useEffect, useState } from "react";
 import { FaBeer } from "react-icons/fa";
 import { FaUserCircle } from "react-icons/fa";
 import { TfiImport } from "react-icons/tfi";
@@ -20,6 +20,7 @@ const AdminHomePage = () => {
     sessionStorage.removeItem("user");
     window.location.replace("/login");
   };
+
   return (
     <div className="adminpage">
       <div className="adminMenu">

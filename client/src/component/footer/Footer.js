@@ -16,7 +16,6 @@ const Footer = () => {
         <img src={flagimage} alt="" />
       </div>
       <div className="footer-content">
-        <h1>Contact Us</h1>
         <div className="footer-main-content">
           <div className="footer-main-icon">
             <div className="footer-icon">

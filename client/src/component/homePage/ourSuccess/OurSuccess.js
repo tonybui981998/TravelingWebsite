@@ -1,6 +1,6 @@
 import React from "react";
 import "./OurSuccess.scss";
-import oursuccess from "../../image/success.webp";
+import oursuccess from "../../image/success-image.webp";
 
 const OurSuccess = () => {
   return (
