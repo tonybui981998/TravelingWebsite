@@ -17,13 +17,31 @@ const HomePageHeader = () => {
       </div>
 
       <div className="header-button">
-        <Link style={{ fontFamily: "cursive" }} to={"/about-us"}>
-          <button style={{ fontFamily: "cursive" }} className="about-us">
+        <Link to={"/about-us"}>
+          <button
+            style={{
+              fontFamily: "Playfair Display, serif",
+              color: "black",
+              fontWeight: "700",
+            }}
+            className="about-us"
+          >
             About Us
           </button>
         </Link>
 
-        <button className="destination">Destination</button>
+        <Link to={"our-destination"}>
+          <button
+            style={{
+              fontFamily: "Playfair Display, serif",
+              color: "black",
+              fontWeight: "700",
+            }}
+            className="destination"
+          >
+            Destination
+          </button>
+        </Link>
       </div>
     </div>
   );

@@ -1,5 +1,5 @@
 .formcard {
-  font-family: cursive;
+  font-family: "Fira Sans", sans-serif;
   background-color: #e6f2ff;
   .main-formcard {
     display: flex;
@@ -107,7 +107,7 @@
 // 484
 @media (max-width: 484px) {
   .formcard {
-    font-family: cursive;
+    font-family: "Fira Sans", sans-serif;
     background-color: #e6f2ff;
     .main-formcard {
       display: flex;

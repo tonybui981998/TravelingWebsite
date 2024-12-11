@@ -1,6 +1,7 @@
 .navigation-homepage {
   background-color: #e6f2ff;
-  font-family: cursive;
+  font-family: "Fira Sans", sans-serif;
+
   .navigation-h1 {
     padding-top: 30px;
     text-align: center;
@@ -17,6 +18,7 @@
       border: 1px solid rgb(192, 187, 187);
       width: fit-content;
       transition: transform 4s ease-in-out;
+      background: rgba(172, 166, 166, 0.3);
 
       &:hover {
         animation: moveImage 1s infinite alternate;

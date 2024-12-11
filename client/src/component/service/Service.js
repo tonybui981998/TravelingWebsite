@@ -1,76 +1,79 @@
 import axios from "axios";
 
+const BASE_URL = process.env.React_URL || "http://localhost:8080";
+
+console.log("BASE_URL:", BASE_URL); // Log để kiểm tra URL
+
 const getRegisterNewUser = (userInformation) => {
-  return axios.post("http://localhost:8080/api/registerUser", userInformation);
+  return axios.post(`${BASE_URL}/api/registerUser`, userInformation);
 };
 
 const getLoginUser = (userInformation) => {
-  return axios.post("http://localhost:8080/api/loginUser", userInformation);
-};
-const sendInforToDB = (requirementInfo) => {
-  return axios.post("http://localhost:8080/api/requirement", requirementInfo);
-};
-const getPaymentDone = (payMentInfor) => {
-  return axios.post("http://localhost:8080/api/paymentdone", payMentInfor);
-};
-const getSaveDestination = (allImage) => {
-  return axios.post("http://localhost:8080/api/updateimage", allImage);
-};
-const getHistoryPayment = () => {
-  return axios.get("http://localhost:8080/api/paymentdone");
+  return axios.post(`${BASE_URL}/api/loginUser`, userInformation);
 };
 
-// delete hsitorypayment
+const sendInforToDB = (requirementInfo) => {
+  return axios.post(`${BASE_URL}/api/requirement`, requirementInfo);
+};
+
+const getPaymentDone = (payMentInfor) => {
+  return axios.post(`${BASE_URL}/api/paymentdone`, payMentInfor);
+};
+
+const getSaveDestination = (allImage) => {
+  return axios.post(`${BASE_URL}/api/updateimage`, allImage);
+};
+
+const getHistoryPayment = () => {
+  return axios.get(`${BASE_URL}/api/paymentdone`);
+};
+
+// Delete history payment
 const getDeleteHistoryPayment = (id) => {
-  return axios.delete("http://localhost:8080/api/deleteHistory", {
+  return axios.delete(`${BASE_URL}/api/deleteHistory`, {
     params: {
       id,
     },
   });
 };
 
-////////////////// admin
-// admin get all user
+// Admin functions
 const getAllUserFromDB = () => {
-  return axios.get("http://localhost:8080/api/getalluser");
+  return axios.get(`${BASE_URL}/api/getalluser`);
 };
+
 const getDeleteUser = (deleteUserEmail) => {
-  return axios.delete("http://localhost:8080/api/deleteuser", {
+  return axios.delete(`${BASE_URL}/api/deleteuser`, {
     params: {
       deleteUserEmail,
     },
   });
 };
-// update user
+
 const getUpdateUserToDB = (editModelValue) => {
-  return axios.put("http://localhost:8080/api/updateuser", editModelValue);
+  return axios.put(`${BASE_URL}/api/updateuser`, editModelValue);
 };
-// upload destination
+
 const getUpLoadDestinatiomToDB = (formData) => {
-  return axios.post("http://localhost:8080/api/imporTDestinationDB", formData);
+  return axios.post(`${BASE_URL}/api/imporTDestinationDB`, formData);
 };
 
-// get destination
 const getDisplayDestination = () => {
-  return axios.get("http://localhost:8080/api/getdestination");
+  return axios.get(`${BASE_URL}/api/getdestination`);
 };
 
-// delete destination
 const getDeleteDestination = (id) => {
-  return axios.delete(`http://localhost:8080/api/getdeletedestinationdb`, {
+  return axios.delete(`${BASE_URL}/api/getdeletedestinationdb`, {
     params: {
       id,
     },
   });
 };
 
-/// edit destination model
 const getEditDestinationModel = (editInformation) => {
-  return axios.put(
-    "http://localhost:8080/api/editdestination",
-    editInformation
-  );
+  return axios.put(`${BASE_URL}/api/editdestination`, editInformation);
 };
+
 export {
   getRegisterNewUser,
   getLoginUser,

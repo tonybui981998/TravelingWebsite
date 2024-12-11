@@ -11,6 +11,7 @@ import MakeBookingMain from "./component/makeBooking/MakeBookingMain";
 import PatyMentPage from "./component/payMentPage/PatyMentPage";
 import PaymentDone from "./component/payMentDone/PaymentDone";
 import AdminHomePage from "./component/admincomponent/adminHomePage/AdminHomePage";
+import "../src/App.css";
 
 function App() {
   return (

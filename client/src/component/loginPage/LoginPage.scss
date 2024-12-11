@@ -1,5 +1,5 @@
 .login {
-  font-family: cursive;
+  font-family: "Fira Sans", sans-serif;
   background: url("../image/loginimage.webp");
   height: 100vh;
   .login-main-content {
@@ -73,7 +73,7 @@
 //470
 @media (max-width: 470px) {
   .login {
-    font-family: cursive;
+    font-family: "Fira Sans", sans-serif;
     background: url("../image/loginimage.webp");
 
     height: 100vh;

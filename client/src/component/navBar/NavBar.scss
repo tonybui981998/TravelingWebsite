@@ -1,13 +1,19 @@
 @import url("https://fonts.googleapis.com/css2?family=Playwrite+IT+Moderna:wght@100..400&display=swap");
 .nav-bar {
   display: flex;
-  font-family: cursive;
+  body {
+    font-family: "Fira Sans", sans-serif;
+  }
+
   justify-content: space-evenly;
   background-color: rgb(240, 240, 232);
   .nav-h1 {
     h1 {
       font-size: 40px;
       font-weight: 700;
+    }
+    span {
+      display: none;
     }
   }
   .active {
@@ -53,7 +59,10 @@
 @media (max-width: 1333px) {
   .nav-bar {
     display: flex;
-    font-family: cursive;
+    body {
+      font-family: "Fira Sans", sans-serif;
+    }
+
     justify-content: space-evenly;
     background-color: rgb(240, 240, 232);
     .nav-h1 {
@@ -106,7 +115,10 @@
 @media (max-width: 940px) {
   .nav-bar {
     display: flex;
-    font-family: cursive;
+    body {
+      font-family: "Fira Sans", sans-serif;
+    }
+
     justify-content: space-evenly;
     background-color: rgb(240, 240, 232);
 
@@ -114,6 +126,9 @@
       h1 {
         font-size: 30px;
         font-weight: 700;
+      }
+      span {
+        display: inline-block;
       }
     }
     .active {
@@ -160,7 +175,10 @@
     display: flex;
     flex-direction: column;
     align-items: center;
-    font-family: cursive;
+    body {
+      font-family: "Fira Sans", sans-serif;
+    }
+
     background-color: rgb(240, 240, 232);
     padding: 20px 10px; /* Add padding for spacing */
     animation: opacityfake 3s;
@@ -174,6 +192,9 @@
       h1 {
         font-size: 30px;
         font-weight: 700;
+      }
+      span {
+        display: inline-block;
       }
     }
 
@@ -239,7 +260,10 @@
 @media (max-width: 940px) {
   .nav-bar {
     display: flex;
-    font-family: cursive;
+    body {
+      font-family: "Fira Sans", sans-serif;
+    }
+
     justify-content: space-evenly;
     background-color: rgb(240, 240, 232);
 
@@ -247,6 +271,9 @@
       h1 {
         font-size: 30px;
         font-weight: 700;
+      }
+      span {
+        display: inline-block;
       }
     }
     .active {
@@ -296,7 +323,10 @@
     display: flex;
     flex-direction: column;
     align-items: center;
-    font-family: cursive;
+    body {
+      font-family: "Fira Sans", sans-serif;
+    }
+
     background-color: rgb(240, 240, 232);
     padding: 20px 10px; /* Add padding for spacing */
     animation: opacityfake 3s;
@@ -310,6 +340,9 @@
       h1 {
         font-size: 30px;
         font-weight: 700;
+      }
+      span {
+        display: inline-block;
       }
     }
 

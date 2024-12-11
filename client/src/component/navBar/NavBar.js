@@ -2,6 +2,8 @@ import React, { useEffect, useState } from "react";
 import "./NavBar.scss";
 import { Link, useLocation } from "react-router-dom";
 //import { useNavigate } from "react-router-dom";
+import { FaBeer } from "react-icons/fa";
+import { IoMenuSharp } from "react-icons/io5";
 
 const NavBar = () => {
   const location = useLocation();
@@ -50,6 +52,9 @@ const NavBar = () => {
     >
       <div className="nav-h1" onClick={() => toggle()}>
         <h1>Viet Nam</h1>
+        <span>
+          <IoMenuSharp />
+        </span>
       </div>
       <div className="nav-menu">
         <Link style={{ textDecoration: "none", color: "black" }} to={"/"}>

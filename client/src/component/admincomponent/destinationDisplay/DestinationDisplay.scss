@@ -2,7 +2,7 @@
   display: flex;
   align-items: center;
   flex-direction: column;
-  font-family: cursive;
+  font-family: "Fira Sans", sans-serif;
   .destination-title {
     font-size: 40px;
     font-weight: 600;
@@ -44,7 +44,7 @@
     justify-content: center;
     align-items: center;
     position: fixed;
-    font-family: cursive;
+    font-family: "Fira Sans", sans-serif;
     top: 0;
     left: 0;
     right: 0;

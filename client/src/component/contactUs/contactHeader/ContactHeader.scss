@@ -7,30 +7,45 @@
   display: flex;
   flex-direction: column;
   align-items: center;
-  font-family: cursive;
+  font-family: "Fira Sans", sans-serif;
+  position: relative;
+
+  &::before {
+    position: absolute;
+    content: "";
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: rgba(0, 0, 0, 0.3);
+    z-index: 1;
+  }
   .contact-title {
     padding-top: 40px;
     font-size: 48px;
-    color: black;
+    color: white;
     font-weight: 800;
+    z-index: 2;
   }
   .contact-p {
     margin-top: 10px;
     width: 60%;
     text-align: center;
-    color: black;
+    color: white;
+    z-index: 2;
     font-weight: 900;
     font-size: 30px;
   }
   .contact-button {
     margin-top: 20px;
+    z-index: 2;
     button {
       padding: 8px 22px;
       color: red;
       background-color: yellow;
       font-size: 22px;
       font-weight: 700;
-      font-family: cursive;
+      font-family: "Fira Sans", sans-serif;
       border-radius: 15px;
       cursor: pointer;
       &:hover {
@@ -51,11 +66,22 @@
     display: flex;
     flex-direction: column;
     align-items: center;
-    font-family: cursive;
+    font-family: "Fira Sans", sans-serif;
+    &::before {
+      position: absolute;
+      content: "";
+      top: 0;
+      left: 0;
+      width: 100%;
+      height: 100%;
+      background: rgba(0, 0, 0, 0.3);
+      z-index: 1;
+    }
     .contact-title {
       padding-top: 40px;
       font-size: 48px;
-      color: black;
+      color: white;
+      z-index: 2;
       font-weight: 800;
     }
     .contact-p {
@@ -74,7 +100,7 @@
         background-color: yellow;
         font-size: 20px;
         font-weight: 700;
-        font-family: cursive;
+        font-family: "Fira Sans", sans-serif;
         border-radius: 15px;
         cursor: pointer;
         &:hover {
@@ -96,18 +122,30 @@
     display: flex;
     flex-direction: column;
     align-items: center;
-    font-family: cursive;
+    font-family: "Fira Sans", sans-serif;
+    &::before {
+      position: absolute;
+      content: "";
+      top: 0;
+      left: 0;
+      width: 100%;
+      height: 100%;
+      background: rgba(0, 0, 0, 0.3);
+      z-index: 1;
+    }
     .contact-title {
       padding-top: 40px;
       font-size: 48px;
-      color: black;
+      color: white;
+      z-index: 2;
       font-weight: 800;
     }
     .contact-p {
       margin-top: 10px;
       width: 90%;
       text-align: center;
-      color: black;
+      color: white;
+      z-index: 2;
       font-weight: 900;
       font-size: 28px;
     }
@@ -119,7 +157,7 @@
         background-color: yellow;
         font-size: 20px;
         font-weight: 700;
-        font-family: cursive;
+        font-family: "Fira Sans", sans-serif;
         border-radius: 15px;
         cursor: pointer;
         &:hover {
@@ -142,18 +180,30 @@
     display: flex;
     flex-direction: column;
     align-items: center;
-    font-family: cursive;
+    font-family: "Fira Sans", sans-serif;
+    &::before {
+      position: absolute;
+      content: "";
+      top: 0;
+      left: 0;
+      width: 100%;
+      height: 100%;
+      background: rgba(0, 0, 0, 0.3);
+      z-index: 1;
+    }
     .contact-title {
       padding-top: 40px;
       font-size: 48px;
-      color: black;
+      color: white;
+      z-index: 2;
       font-weight: 800;
     }
     .contact-p {
       margin-top: 10px;
       width: 95%;
       text-align: center;
-      color: black;
+      color: white;
+      z-index: 2;
       font-weight: 900;
       font-size: 25px;
     }
@@ -165,7 +215,7 @@
         background-color: yellow;
         font-size: 20px;
         font-weight: 700;
-        font-family: cursive;
+        font-family: "Fira Sans", sans-serif;
         border-radius: 15px;
         cursor: pointer;
         &:hover {

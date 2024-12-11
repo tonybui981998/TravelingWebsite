@@ -1,5 +1,5 @@
 .registerpage {
-  font-family: cursive;
+  font-family: "Fira Sans", sans-serif;
   background: url("../image/registerimage.webp");
   height: 100vh;
   justify-content: center;
@@ -61,7 +61,7 @@
 // 500
 @media (max-width: 500px) {
   .registerpage {
-    font-family: cursive;
+    font-family: "Fira Sans", sans-serif;
     background: url("../image/registerimage.webp");
     height: 100vh;
     justify-content: center;
